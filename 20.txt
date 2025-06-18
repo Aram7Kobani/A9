@@ -1,0 +1,103 @@
+Scripting 3 - Opdrachtenoverzicht
+=================================
+
+Tijdsduur: 2 uur
+Doel: Scripten, vervolg 1
+Benodigdheden: Linux-distributie, internet
+Theorie: Hoofdstuk 18 en 19
+
+--------------------------------------------------------------------
+Oefening 1 - Werken met `date` en command-substitution
+--------------------------------------------------------------------
+
+1. Open een terminal.
+2. Typ: date
+3. Typ: echo het is vandaag date
+   -> Opmerking: ‘date’ wordt als gewone tekst gezien.
+4. Typ: echo het is vandaag `date`
+   -> Nu zie je de datum en tijd in de output.
+
+5. Typ: date +%d-%m-%y
+6. Typ: date +%d-%m-%y-%H:%M
+7. Typ: echo "$(date '+%d-%m-%y-%H:%M')"
+   -> Dit toont datum + tijd correct.
+
+8. Variabele gebruiken in script:
+   NU="$(date '+%d-%m-%y-%H:%M')"
+
+9. Maak een script met de naam `script5.sh`:
+--------------------------------------------------
+#!/bin/bash
+# Dit script laat datum en tijd als variabele zien
+
+NU="$(date '+%d-%m-%y-%H:%M')"
+echo "Datum en tijd van dit moment is $NU"
+--------------------------------------------------
+
+Maak het script uitvoerbaar:
+chmod +x script5.sh
+Voer het uit met:
+./script5.sh
+
+--------------------------------------------------------------------
+Opdracht 9 - Back-up maken met datum/tijd in logbestandsnaam
+--------------------------------------------------------------------
+
+1. Controleer of /home/jouwnaam/fotos bestaat. Zo niet:
+   mkdir -p /home/$USER/fotos
+   Voeg eventueel wat foto's toe.
+
+2. Maak een script genaamd `script6.sh`:
+--------------------------------------------------
+#!/bin/bash
+# Maakt een backup van de fotos-map naar /tmp/backup
+# en maakt een logbestand met datum en tijd in de naam
+
+BRON="/home/$USER/fotos"
+DOEL="/tmp/backup"
+LOGDIR="/tmp"
+TIJD="$(date '+%d-%m-%y-%H:%M')"
+LOGBESTAND="$LOGDIR/backup-$TIJD.log"
+
+mkdir -p "$DOEL"
+rsync -av --delete "$BRON/" "$DOEL/" >> "$LOGBESTAND"
+echo "Backup voltooid. Log opgeslagen in $LOGBESTAND"
+--------------------------------------------------
+
+Maak het script uitvoerbaar:
+chmod +x script6.sh
+Voer uit met:
+./script6.sh
+
+--------------------------------------------------------------------
+Opdracht 10 - Aantal entries in home-directory tellen
+--------------------------------------------------------------------
+
+1. Typ dit op de command line:
+   ls /tmp | wc -l
+
+2. Maak `script7.sh`:
+--------------------------------------------------
+#!/bin/bash
+# Telt het aantal bestanden/mappen in de home directory van de gebruiker
+
+GEBRUIKER="$USER"
+AANTAL=$(ls "/home/$GEBRUIKER" | wc -l)
+
+echo "De home-map van $GEBRUIKER heeft $AANTAL entries."
+--------------------------------------------------
+
+Maak uitvoerbaar:
+chmod +x script7.sh
+Voer uit met:
+./script7.sh
+
+--------------------------------------------------------------------
+Resultaat
+--------------------------------------------------------------------
+Laat aan je docent zien:
+- script5.sh (toont datum en tijd als variabele)
+- script6.sh (maakt backup met logbestand)
+- script7.sh (telt bestanden in homedir)
+
+Veel succes!

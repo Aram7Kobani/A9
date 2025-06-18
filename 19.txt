@@ -1,0 +1,103 @@
+
+Scripting 2 - Bestanden en Scripts
+
+script1.sh
+-----------
+#!/bin/bash
+
+#Dit script geeft de user en home dir weer
+
+echo "Ik ben de gebruiker" "$USER" "en mijn homedirectory is" "$HOME"
+
+Uitvoeren:
+chmod 770 script1.sh
+./script1.sh
+
+script2.sh
+-----------
+#!/bin/bash
+
+#Dit script toont variabelen
+VOORNAAM=Linus
+ACHTERNAAM=Torvalds
+
+echo "Mijn voornaam is" "$VOORNAAM" "en mijn achternaam is" "$ACHTERNAAM".
+
+script3.sh
+-----------
+#!/bin/bash
+
+#Dit script gebruikt parameters als input voor variabelen.
+
+echo "De naam van dit script is" "$0", "mijn favoriete kleur is" "$1", "ik eet graag" "$2" "en ik houd van" "$3".
+
+Uitvoeren:
+./script3.sh rood spruitjes gamen
+
+maak3gebruikers.sh
+--------------------
+#!/bin/bash
+
+#Dit script maakt drie gebruikers aan, met homedirectory
+
+useradd -m "$1"
+useradd -m "$2"
+useradd -m "$3"
+
+echo "Gebruikers $1, $2 en $3 zijn aangemaakt."
+
+Uitvoeren:
+chmod +x maak3gebruikers.sh
+sudo ./maak3gebruikers.sh jan piet klaas
+
+script4.sh
+-----------
+#!/bin/bash
+
+#Dit script vraagt naar voorkeuren:
+
+clear
+echo "Wat is jouw favoriete kleur? (typ en druk op enter)"
+read KLEUR
+
+clear
+echo "Wat eet je graag?"
+read ETEN
+
+clear
+echo "En wat vind je leuk om te doen?"
+read HOBBY
+
+clear
+echo "Zo, dus jij vindt" "$KLEUR" "een mooie kleur, je eet graag" "$ETEN" "en je houdt van" "$HOBBY".
+
+maakgebruiker.sh
+------------------
+#!/bin/bash
+
+#Dit script maakt een gebruiker aan met wachtwoord
+
+echo "Voer de gebruikersnaam in die je wilt aanmaken:"
+read GEBRUIKER
+
+sudo useradd -m "$GEBRUIKER"
+
+echo "Voer nu een wachtwoord in voor gebruiker $GEBRUIKER:"
+sudo passwd "$GEBRUIKER"
+
+echo "Gebruiker $GEBRUIKER is aangemaakt."
+
+verwijdergebruiker.sh
+----------------------
+#!/bin/bash
+
+#Dit script verwijdert een gebruiker en zijn homedirectory
+
+echo "Welke gebruiker wil je verwijderen?"
+read GEBRUIKER
+
+sudo userdel -r "$GEBRUIKER"
+
+echo "Gebruiker $GEBRUIKER is verwijderd."
+
+Einde van bestand

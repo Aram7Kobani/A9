@@ -1,0 +1,125 @@
+22.1. Scripting 5
+
+Tijdsduur: 2 uur  
+Doel: Scripten, vervolg 1  
+Benodigdheden: Linux-distributie, internet  
+Theorie: Hoofdstuk 18, 19, 20 en 21
+
+Inleiding:
+Het gaat te ver om in enkele hoofdstukken scripten volledig te behandelen. Op internet zijn veel goede sites te vinden om de basiskennis die je nu hebt uit te breiden.
+Toch maken we nog kort kennis met een aantal veelvoorkomende commando’s. In eenvoudige voorbeelden die je in de oefeningen moet maken wordt veel duidelijk.
+
+---
+
+For-loop
+
+Oefening 1:  
+Maak het volgende script (script12.sh) en bekijk het resultaat.
+
+script12.sh:
+--------------------
+#!/bin/bash
+for i in een twee drie vier vijf
+do
+  echo $i
+done
+--------------------
+
+---
+
+Oefening 2:  
+Het volgende script (script13.sh) rekent de tafels uit van het getal dat je invoert.
+
+script13.sh:
+--------------------
+#!/bin/bash
+echo "Geef een getal:"
+read getal
+for i in {1..10}
+do
+  resultaat=$((getal * i))
+  echo "$getal x $i = $resultaat"
+done
+--------------------
+
+---
+
+While-loop
+
+Oefening 3:  
+Maak het volgende voorbeeld na in script14.sh.
+
+script14.sh:
+--------------------
+#!/bin/bash
+counter=1
+while [ $counter -le 10 ]
+do
+  echo $counter
+  counter=$((counter + 1))
+done
+--------------------
+
+Vraag:
+Wat zou er gebeuren wanneer je in de while-regel `-le 10` verwijdert?
+Antwoord:
+Dan krijg je een oneindige loop. Het script blijft lopen zonder te stoppen.
+
+Tip:
+Met `control-c` kun je een proces onderbreken.
+
+---
+
+Oefening 4: echo -e sequenties
+
+Voer het volgende uit in de terminal vanuit de map /tmp:
+
+--------------------
+cd /tmp
+echo -e "Dit is 1 backslash \\" >> sequenties
+echo -e "Dit \t zijn \t tabs" >> sequenties
+echo -e "Dit \n worden \n drie regels" >> sequenties
+echo -e "Dit \c" >> sequenties
+echo -e "wordt \c" >> sequenties
+echo -e "1 regel \c" >> sequenties
+cat sequenties
+--------------------
+
+Resultaat:
+- Backslash, tabs, nieuwe regels en afgebroken regels worden getoond.
+- `\t` voor tab, `\n` voor nieuwe regel, `\c` om af te breken.
+
+---
+
+Opdracht 12: script15.sh  
+Maak een script dat de inhoud van de map toont waarin het wordt uitgevoerd.
+
+script15.sh:
+--------------------
+#!/bin/bash
+echo "De inhoud van deze directory is:"
+for i in *
+do
+  echo $i
+done
+--------------------
+
+---
+
+Opdracht 13: script16.sh  
+Maak een script dat alle even getallen tot 1000 toont.
+
+script16.sh:
+--------------------
+#!/bin/bash
+counter=2
+while [ $counter -le 1000 ]
+do
+  echo $counter
+  counter=$((counter + 2))
+done
+--------------------
+
+---
+
+Einde bestand
