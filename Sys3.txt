@@ -1,6 +1,6 @@
 Beste meneer en mevrouw,
 
-Bij deze lever ik het proof of concept op voor de applicatie KentekenCheck, zoals besproken.
+Hierbij presenteer ik het proof of concept voor de KentekenCheck.
 
 In deze bijlage vindt u:
 
