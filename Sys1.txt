@@ -1,1 +1,87 @@
+# programma KentekenCheck
+# Versie: 1.2
+# Auteur: B. van der Feen
+# Edit: M. van Hoek
+# Datum: 26/6/2025
+#
+# Dit programma vergelijkt gescande kentekens met geregistreerde kentekens
+# uit een RDW-bestand en registreert onbekende of foutieve meldingen in vals.txt
+
+from datetime import datetime  # Voor het ophalen van datum en tijd
+
+print("= = =  programma kentekensignalering gestart = = = ") 
+print("Starttijd:", datetime.now().strftime("%d-%m-%Y %H:%M:%S"))  # Huidige datum en tijd
+
+# OPDRACHT: Definieer een padvariabele zodat padnamen slechts op één plek staan
+appPath = "C:\\Users\\administrator\\KentekenCheck\\"  # Basispad naar alle bestanden
+
+# Bestanden openen via appPath
+rdwInput = open(appPath + "RDW.csv")              # RDW-gegevens
+scanInput = open(appPath + "GescandeData.csv")    # Gesaneerde kentekens
+
+aantalVerwerkt = 0   # Aantal verwerkte regels
+aantalFout = 0       # Aantal foutieve signaleringen
+
+# OPDRACHT: Vraag of vals.txt geleegd moet worden
+legenVals = input("Moet het bestand vals.txt geleegd worden? (j/n): ").lower()
+
+# Afhankelijk van de keuze, het bestand openen in schrijf- of append-modus
+if legenVals == "n":
+    signaleringen = open(appPath + "vals.txt", "a")  # Toevoegen aan bestaand bestand
+else:
+    signaleringen = open(appPath + "vals.txt", "w")  # Overschrijven / legen van bestand
+
+# Verwerken van elk gescand voertuig
+for auto in scanInput:  # Lezen regel voor regel uit GescandeData.csv
+    if len(auto) < 10:  # Overslaan van te korte regels (fout of leeg)
+        continue
+
+    # Splits de regel in aparte velden
+    autoDelen = auto.strip().split(",")
+    scanKenteken = autoDelen[0]  # Gescand kenteken
+    scanMerk = autoDelen[1]      # Gescand merk
+    scanType = autoDelen[2]      # Gescand type
+    aantalVerwerkt += 1          # Verhogen van verwerkte telling
+
+    match = 0  # Start zonder match
+    rdwInput.seek(0)  # Begin opnieuw bovenaan RDW.csv bij elke scan
+
+    for rdwAuto in rdwInput:  # Loop door alle RDW-regels
+        rdwAutoDelen = rdwAuto.strip().split(",")
+        rdwKenteken = rdwAutoDelen[0]
+        rdwMerk = rdwAutoDelen[2]
+        rdwType = rdwAutoDelen[3]
+
+        # OPDRACHT: Vergelijk kenteken van scan en RDW
+        if scanKenteken == rdwKenteken:
+            match = 1  # Match gevonden, dus stoppen met zoeken
+            break
+
+    # Afhandelen van scan zonder match in RDW
+    if match == 0:
+        aantalFout += 1
+        print("Onbekend kenteken:", scanKenteken, scanMerk, scanType, "\n")
+        signaleringen.write("Onbekend," + scanKenteken + "," + scanMerk + "," + scanType + "\n")
+
+    else:
+        # Als kenteken wel bestaat, maar merk of type klopt niet
+        if scanMerk != rdwMerk or scanType != rdwType:
+            aantalFout += 1
+            print("Onjuist kenteken:", scanKenteken, scanMerk, scanType)
+            print("Geregistreerd op:", rdwKenteken, rdwMerk, rdwType, "\n")
+            signaleringen.write("Onjuist," + scanKenteken + "," + scanMerk + "," + scanType + "\n")
+
+# Printen van eindresultaten
+print("\nEindtotalen KentekenCheck")
+print("Totaal verwerkt: ", aantalVerwerkt)
+print("Aantal fout:     ", aantalFout)
+print("Aantal correct:  ", aantalVerwerkt - aantalFout)
+
+# Sluiten van bestanden
+rdwInput.close()
+scanInput.close()
+signaleringen.close()
+
+print("= = =  programma kentekensignalering afgesloten = = =")
+print("Eindtijd:", datetime.now().strftime("%d-%m-%Y %H:%M:%S"))  # Eindtijd tonen
 
