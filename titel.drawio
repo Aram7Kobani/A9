@@ -1,0 +1,221 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Pagina-1" id="64_ARJY8SQY2bCUY1pRk">
+    <mxGraphModel dx="1791" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-ck5CI5-daSP0JIFss42-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-1" target="-ck5CI5-daSP0JIFss42-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-2" target="-ck5CI5-daSP0JIFss42-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-2" value="Huidige datum/tijd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-3" value="Vraag: vals.txt legen? (Yes OF No)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-4" target="-ck5CI5-daSP0JIFss42-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-4" value="Open RDW.csv en GescandeData.csv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-5" target="-ck5CI5-daSP0JIFss42-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-5" value="&lt;table&gt;&lt;tbody&gt;&lt;tr data-end=&quot;1038&quot; data-start=&quot;963&quot;&gt;&lt;td data-col-size=&quot;sm&quot; data-end=&quot;1038&quot; data-start=&quot;978&quot;&gt;Open of maak vals.txt (w of a)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr data-end=&quot;1114&quot; data-start=&quot;1039&quot;&gt;&lt;td data-col-size=&quot;sm&quot; data-end=&quot;1054&quot; data-start=&quot;1039&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-6" target="-ck5CI5-daSP0JIFss42-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-6" value="&lt;table&gt;&lt;tbody&gt;&lt;tr data-end=&quot;1114&quot; data-start=&quot;1039&quot;&gt;&lt;td data-end=&quot;1114&quot; data-start=&quot;1054&quot; data-col-size=&quot;sm&quot;&gt;Lees record uit GescandeData&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr data-end=&quot;1190&quot; data-start=&quot;1115&quot;&gt;&lt;td data-col-size=&quot;sm&quot; data-end=&quot;1130&quot; data-start=&quot;1115&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-7" target="-ck5CI5-daSP0JIFss42-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-7" value="&lt;table&gt;&lt;tbody&gt;&lt;tr data-end=&quot;1190&quot; data-start=&quot;1115&quot;&gt;&lt;td data-end=&quot;1190&quot; data-start=&quot;1130&quot; data-col-size=&quot;sm&quot;&gt;Lengte record &amp;lt; 10?&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr data-end=&quot;1266&quot; data-start=&quot;1191&quot;&gt;&lt;td data-col-size=&quot;sm&quot; data-end=&quot;1206&quot; data-start=&quot;1191&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-8" target="-ck5CI5-daSP0JIFss42-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-8" value="&lt;br&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr data-end=&quot;1266&quot; data-start=&quot;1191&quot;&gt;&lt;td data-end=&quot;1266&quot; data-start=&quot;1206&quot; data-col-size=&quot;sm&quot;&gt;Tabel auto delen gegevens: kenteken, merk, type&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr data-end=&quot;1342&quot; data-start=&quot;1267&quot;&gt;&lt;td data-col-size=&quot;sm&quot; data-end=&quot;1282&quot; data-start=&quot;1267&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-9" target="-ck5CI5-daSP0JIFss42-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="825" />
+              <mxPoint x="360" y="825" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-9" value="&lt;table&gt;&lt;tbody&gt;&lt;tr data-end=&quot;1342&quot; data-start=&quot;1267&quot;&gt;&lt;td data-end=&quot;1342&quot; data-start=&quot;1282&quot; data-col-size=&quot;sm&quot;&gt;Zoek kenteken in RDW.csv&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr data-end=&quot;1418&quot; data-start=&quot;1343&quot;&gt;&lt;td data-col-size=&quot;sm&quot; data-end=&quot;1358&quot; data-start=&quot;1343&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="795" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-10" target="-ck5CI5-daSP0JIFss42-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-10" value="&lt;table&gt;&lt;tbody&gt;&lt;tr data-end=&quot;1418&quot; data-start=&quot;1343&quot;&gt;&lt;td data-end=&quot;1418&quot; data-start=&quot;1358&quot; data-col-size=&quot;sm&quot;&gt;Niet gevonden&lt;table style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;tbody&gt;&lt;tr data-end=&quot;1494&quot; data-start=&quot;1419&quot;&gt;&lt;td data-col-size=&quot;sm&quot; data-end=&quot;1434&quot; data-start=&quot;1419&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="785" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-12" target="-ck5CI5-daSP0JIFss42-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="493" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-12" value="Print melding in vals.txt" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="795" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-52" target="-ck5CI5-daSP0JIFss42-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-13" target="-ck5CI5-daSP0JIFss42-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-13" target="-ck5CI5-daSP0JIFss42-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-13" value="Vergelijk merk en handelsbenaming" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="217.5" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-14" target="-ck5CI5-daSP0JIFss42-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-14" value="Match&amp;nbsp;Printen&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-16" value="Print vercshil, log in vals.txt" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-17" value="Print dan" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-18" target="-ck5CI5-daSP0JIFss42-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-18" value="Sluit alle bestanden" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="217.5" y="1505" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-19" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="35" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-20" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="135" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-21" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="215" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-22" value="4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="305" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-26" value="5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="395" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-27" value="6" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="478" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-31" value="7" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="690" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-32" value="8" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="800" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-33" target="-ck5CI5-daSP0JIFss42-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-33" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="483" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-35" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="483" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-53" target="-ck5CI5-daSP0JIFss42-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-53" value="Nee" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="965" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-54" target="-ck5CI5-daSP0JIFss42-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-54" target="-ck5CI5-daSP0JIFss42-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-54" value="Herhaal stap 6 t/m 8 voor elk record" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="217.5" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-56" value="9" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1265" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-57" target="-ck5CI5-daSP0JIFss42-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-57" value="&lt;div&gt;Toon totalen:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;aantal verwerkt, aantal afwijkingen&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="217.5" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-58" value="10" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1395" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-59" value="11" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1520" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-64" value="Eindtijd tonen" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="217.5" y="1618" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-65" value="12" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1618" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-9" target="-ck5CI5-daSP0JIFss42-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="825" as="sourcePoint" />
+            <mxPoint y="825" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-11" target="-ck5CI5-daSP0JIFss42-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-11" value="Wel gevonden" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="905" width="85" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-13" target="-ck5CI5-daSP0JIFss42-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="980" as="sourcePoint" />
+            <mxPoint x="450" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-52" value="Ja" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="373.5" y="965" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-74" target="-ck5CI5-daSP0JIFss42-76">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="493" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-74" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1270" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-ck5CI5-daSP0JIFss42-76" target="-ck5CI5-daSP0JIFss42-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-76" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="483" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-ck5CI5-daSP0JIFss42-78" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="483" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
