@@ -1,15 +1,1 @@
-Beste meneer en mevrouw,
 
-Hierbij presenteer ik het proof of concept voor de KentekenCheck.
-
-In deze bijlage vindt u:
-
-Ontwerpdocument: doel, aanpak, stroomschema, Toelichting bij stappen stroomdiagram, Inputdata, Outputdata en Resultaat uitvoer
-
-Verslag Bijlage 2.1 met uitgevoerde stappen, screenshots en toelichting
-
-Ik hoor graag of u nog vragen heeft of een demo wilt inplannen of als er iets niet duidelijk is.
-
-Met vriendelijke groet,
-<Jouw Naam>
-Student ICT-opleiding
