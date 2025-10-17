@@ -1,9 +1,1 @@
-| Stap | Doel                                                                         | Screenshot                                            | Opmerkingen                                 |
-| ---- | ---------------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------- |
-| 1    | Start applicatie – laat melding “programma kentekensignalering gestart” zien | *(Plaats screenshot cmd-venster met startmelding)*    | Bevestiging dat applicatie launch werkt     |
-| 2    | Gebruikersprompt “Wil je het bestand vals.txt legen? (j/n):”                 | *(Screenshot vraag)*                                  | Test beide opties: j en n (maken/aanvullen) |
-| 3    | Scannen eerste kenteken (bv. 44SNF5, correct)                                | *(Screenshot `44SNF5 OK`)*                            | Correct herkenning                          |
-| 4    | Scannen afwijkend kenteken (bv. 74KTG6, merk/type afwijking)                 | *(Screenshot `74KTG6 VERSCHIL` + details)*            | Verschillen duidelijk weergegeven           |
-| 5    | Scannen onbekend kenteken (bv. ABC123)                                       | *(Screenshot `ABC123 VERSCHIL`, “Onbekend kenteken”)* | Onbekend wordt correct afgehandeld          |
-| 6    | Eindsignaal `EINDE` invoeren                                                 | *(Screenshot grenzen overzicht)*                      | Programma toont totalen en sluit af         |
-| 7    | Controleren `vals.txt` na afloop                                             | *(Screenshot inhoud vals.txt)*                        | Alleen onjuiste entries aanwezig            |
+
