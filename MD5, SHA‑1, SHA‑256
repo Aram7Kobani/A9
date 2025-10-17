@@ -1,0 +1,5 @@
+Windows (PowerShell)
+
+Get-FileHash "C:\path\to'\name.exe" -Algorithm SHA256
+
+Get-FileHash "C:\path\to'\name.exe" -Algorithm MD5
