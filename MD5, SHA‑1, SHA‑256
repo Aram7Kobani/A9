@@ -3,3 +3,10 @@ Windows (PowerShell)
 Get-FileHash "C:\path\to'\name.exe" -Algorithm SHA256
 
 Get-FileHash "C:\path\to'\name.exe" -Algorithm MD5
+
+
+For this application, the hash is:
+SHA256          497F796E6D076D4855D697965C04626E6D3624658FCE3ECA82AB14F7414EEDE2
+
+MD5             E88A8AAA069B9B4C44A416FA7CD071F1
+
